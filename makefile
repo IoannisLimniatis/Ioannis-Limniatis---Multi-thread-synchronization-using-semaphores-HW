@@ -1,7 +1,5 @@
 all:
-	g++ -g main.cpp -o main -lpthread -lm 
+	g++ -g -Wall main.cpp -lpthread -o cse4001_sync
 
 clean:
-	rm main
-	
-
+	rm -f cse4001_sync main
